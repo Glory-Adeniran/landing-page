@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    border: 50px solid rgb(209, 130, 66);
+    padding-bottom: 90px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+   width: 450px;
+   margin-top: -7px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.image{
+    margin-left: -90px;
+}
+.submit{
+    border: none;
+    color: white;
+    background-color: orangered;
+    padding: 7px 20px;
+    border-radius: 8px;
+    margin-right: -200px;
+    margin-left: -30px;
+}
+.bodyy{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.para{
+    font-size: 25px;
+    margin-left: 5px;
+}
+.pa{
+    font-size: 60px;
+    line-height: 35px;
+}
+.missing{
+    border: 2px solid yellow;
+    border-radius:50%;
+}
+.par{
+    font-size: 15px;
+}
+.button1{
+    padding: 9px 25px;
+    border-radius: 6px;
+    border: 1px solid black;
+    width: 110px;
+    padding-left: 40px;
+}
+.button2{
+    padding: 9px 9px;
+    border-radius: 6px;
+    border: none;
+    background: orangered;
+    color: white;
+    margin-left: 30px;
+}
+.buttondiv{
+    margin-left: 30px;
+    margin-top: 7px;
+}
+.image2{
+    position: relative;
+    margin-left: 670px;
+    margin-top: -330px;
+    width: 550px;
+}
+.fa-long-arrow-left{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 30px;
+    padding-left: 15px;
+}
